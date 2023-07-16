@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Reserve Bank of Malawi</string>
+
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Quantized</item>
+        <item>Float</item>
+    </string-array>
+
+    <string name="device">Device:</string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+
+    <string name="security_1_title">LEAD (Holographic Foil Stripe)</string>
+    <string name="security_1_desc">This is shiny near the left front edge of the banknote. When the bank note is tilted, the stripe shows the portrait of Rev. John Chilembwe, denomination value of 2000. The Reserve Bank of Malawi logo and the text "RESERVE BANK OF MALAWI."</string>
+
+    <string name="security_2_title">Spark Live (Fish Shaped)</string>
+    <string name="security_2_desc">This is an image of a fish that delivers colour changing properties and dynamic light effects. The image is located at the front of the banknote on the right side.</string>
+
+    <string name="security_3_title">Watermark</string>
+    <string name="security_3_desc">When the note is viewed against direct light, the watermark in form of the portrait and the denomination number as a highlight can be seen.</string>
+
+    <string name="security_4_title">Intaglio Printing</string>
+    <string name="security_4_desc">Intaglio printing is used on specific areas of the banknote. The intaglio print feels raised and rough, quite unlike the other sections of the note, which are smooth. The portrait, the denomination values, the RBM building and capital letters reading "RESERVE BANK OF MALAWI" are printed in the intaglio.</string>
+
+    <string name="security_5_title">MicroPrint / Micro Text</string>
+    <string name="security_5_desc">Small letters, numbers and /or images that are barely perceptible with the naked eye, but become visible at low magnification (under a loupe).</string>
+'
+    <string name="security_6_title">Security Thread</string>
+    <string name="security_6_desc">The security thread is a metallic-looking strip which is seen in small "windows". It is positioned on the reverse side in the center of the note. When the note is held against the light, the thread is seen as continuous dark line reading "RBM" and the denomination number in small letters.</string>
+
+    <string name="security_7_title">LEAD (Holographic Foil Stripe)</string>
+    <string name="security_7_desc">A holographic foil stripe is positioned at the right-hand side on the front. It shows the portrait as well as the bank logo and denomination number by tilting the banknote. Additionally the foil shows fine demetallisation areas in the upper and lower part and the text "RESERVE BANK OF MALAWI" and the denomination number which can be verified by holding the note against the light.</string>
+
+    <string name="security_8_title">STEP (Color-Changing Ink)</string>
+    <string name="security_8_desc">The denomination value on the upper left-hand side is printed with a color changing ink. When the note is tilted the color changes from green to blue.</string>
+
+    <string name="security_9_title">Security Thread RollingStar Wave</string>
+    <string name="security_9_desc">The security thread shows a dynamic wave travelling from the left to the right side and changing its color from green to blue upon tilting.</string>
+
+    <string name="security_10_title">Security Thread RollingStar Cude</string>
+    <string name="security_10_desc">The security thread created by counter-running  cubes placed vertically near the center at the back of the note. The line changes color from gold to green when the note is tilted.</string>
+
+</resources>

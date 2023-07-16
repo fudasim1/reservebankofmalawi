@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_sheet_corner_radius">15dp</dimen>
+    <dimen name="bottom_sheet_top_padding">8dp</dimen>
+    <!-- Intro Screen -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_bottom_margin">20dp</dimen>
+    <dimen name="img_width">180dp</dimen>
+    <dimen name="img_height">180dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+</resources>
