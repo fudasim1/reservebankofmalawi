@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 34
+    buildToolsVersion "34.0.0"
+
+    defaultConfig {
+        applicationId "com.reservebankofmalawi"
+        minSdkVersion 21
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    implementation 'com.google.code.gson:gson:2.8.8'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.0.0'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view-androidx:3.10.0'
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'jp.wasabeef:glide-transformations:2.0.2'
+    implementation 'com.github.denzcoskun:ImageSlideshow:0.1.2'
+}
