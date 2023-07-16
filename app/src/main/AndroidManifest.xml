@@ -1,1 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reservebankofmalawi">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".CurrencyActivity"
+            android:label="View Bank Notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ScanActivity"
+            android:label="Scan Currency"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ExchangeActivity"
+            android:label="Exchange Rates"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ViewPostPhotoActivity"
+            android:label="Photo"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewNewsPostActivity"
+            android:label="Photo"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ViewK20CurrencyActivity"
+            android:label="20 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ViewK50CurrencyActivity"
+            android:label="50 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewK100CurrencyActivity"
+            android:label="100 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewK200CurrencyActivity"
+            android:label="200 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewK500CurrencyActivity"
+            android:label="500 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewK1000CurrencyActivity"
+            android:label="1000 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".ViewK2000CurrencyActivity"
+            android:label="2000 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ViewK5000CurrencyActivity"
+            android:label="5000 Kwacha"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity
+            android:name=".SecurityFeaturesActivity"
+            android:label="Photo"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".ReportActivity"
+            android:label="Report"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+    </application>
+
+</manifest>
